@@ -9,6 +9,26 @@ h1 {
 	border-bottom: 1px solid #ccc;
 }
 
+header a {
+    color: rgb(152,173,166);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: rgb(111,127,122);
+}
+
+h2 {
+	color: rgb(111,127,122);
+	display: block;
+	font-size: 2em;
+	margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
