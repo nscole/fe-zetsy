@@ -4,8 +4,8 @@ h1 {
 	padding: 20px;
 	margin: 0 0 5px;
 	font-size: 5em;
-	font-weight: normal;
-	font-family: 'Baskerville', serif;
+	font-weight: 'Baskerville' normal;
+	font-family: 'Baskerville' serif;
 	border-bottom: 1px solid #ccc;
 }
 
@@ -27,6 +27,24 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+}
+
+#featured img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#press img:hover {
+    border: 5px rgb(111,127,122) solid;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
 }
 
 /* link the web font used for the level 1 heading here */
